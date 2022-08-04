@@ -1,0 +1,74 @@
+body {
+    /* Sets website background colour */
+    background-color: #F8F7F3;
+}
+
+.navbar {
+    /* Sets navigation bar background colour */
+    background-color: #B9A898;
+    overflow: hidden;
+}
+
+.navbar a {
+    /* Sets navigation bar text colour, alignment, padding and font size */
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    /* Sets navigation bar button colour when user hovers mouse over button */
+    background-color: #E4DAD9;
+    color: black;
+}
+
+.navbar a.active {
+    /* Sets navigation bar background colour of active tab */
+    background-color: #AEBCBF;
+    color: black;
+}
+
+p { 
+    /* Formats paragraph styling, centering text and applying size and weight */
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cSharp {
+    /* Centers C# logo and applies margin and width rules*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+figcaption {
+    /* Centers C# logo caption */
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.vendorLink {
+    /* Centers vendor hyperlink */
+    text-align: center;
+}
+
+.tutorialLink {
+    /* Centers tutorial hyperlink */
+    text-align: center;
+}
+
+.loremIpsum {
+    /* Centers Lorem Ipsum text, justifies and applies margin and width rules */
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: justify;
+}
